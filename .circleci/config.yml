@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: alpine
+
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: echo "hello world!"

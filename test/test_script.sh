@@ -43,11 +43,11 @@ function python_test(){
 RESULT_A=$(python_test ${PY_CODE} ${TXT_A})
 RESULT_B=$(python_test ${PY_CODE} ${TXT_B})
 
-if [[ ${RESULT_A} != 1999999998 ]]; then
+if [[ ${RESULT_A} != 2987654320 ]]; then
     exit 1
 fi
 
-if [[ ${RESULT_B} != 39 ]]; then
+if [[ ${RESULT_B} != 120 ]]; then
     exit 1
 fi
 

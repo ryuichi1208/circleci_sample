@@ -11,3 +11,5 @@ jobs:
             set +e
             mkdir -p /tmp/test-results
             echo "Finish run"
+            ls
+            pwd

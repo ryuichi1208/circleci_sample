@@ -2,7 +2,13 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:3.6
+      - image: circleci/python:3.6.3
     steps:
       - checkout
-      - run: echo "Helloworld"
+			- run:
+					command: |
+						echo "Running test"
+						set +e
+						mkdir -p /tmp/test-results
+						echo "Finish run"
+

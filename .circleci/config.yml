@@ -9,4 +9,6 @@ jobs:
     steps:
       - checkout
       - run: echo "Test finishuu"
+      - run: pwd
+      - run: ls
 

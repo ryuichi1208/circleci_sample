@@ -5,10 +5,9 @@ jobs:
       - image: circleci/python:3.6.3
     steps:
       - checkout
-			- run:
-					command: |
-						echo "Running test"
-						set +e
-						mkdir -p /tmp/test-results
-						echo "Finish run"
-
+      - run:
+        command: |
+            echo "Running test"
+            set +e
+            mkdir -p /tmp/test-results
+            echo "Finish run"

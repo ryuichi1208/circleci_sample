@@ -13,4 +13,5 @@ jobs:
             echo "Finish run"
             ls
             pwd
-            ./test/test_script.sh
+            cd test
+            ./test_script.sh

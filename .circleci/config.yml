@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
       - run:
-        command: |
+          command: |
             echo "Running test"
             set +e
             mkdir -p /tmp/test-results

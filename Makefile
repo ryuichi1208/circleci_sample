@@ -1,2 +1,2 @@
 all:
-	gcc -o bin/hello src/hello.c
+a	gcc -o bin/hello src/hello.c

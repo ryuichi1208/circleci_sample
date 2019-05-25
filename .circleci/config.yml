@@ -13,4 +13,4 @@ jobs:
             echo "Finish run"
             ls
             pwd
-            python3.6 src/s002.py < text/002.txt
+            ./test/test_script.sh
